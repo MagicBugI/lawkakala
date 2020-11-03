@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,aAAa;CAYjC;;AAdD,AAGI,QAHI,CAGJ,EAAE,CAAA;EACE,aAAa,EAAE,IAAI;CACtB;;AALL,AAMI,QANI,CAMJ,IAAI,CAAA;EACA,SAAS,EAAE,KAAK;EAChB,KAAK,EAAE,MAAM;CAChB;;AATL,AAUI,QAVI,CAUJ,QAAQ,CAAA;EACJ,OAAO,EAAE,IAAI;EACb,eAAe,EAAC,aAAa;CAChC",
+    "sources": [
+        "sing-up.scss"
+    ],
+    "names": [],
+    "file": "sing-up.css"
+}

@@ -1,0 +1,25 @@
+.sing-in {
+  width: 45vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sing-in h2 {
+  margin-bottom: 15px;
+}
+
+.sing-in span {
+  font-size: small;
+  color: silver;
+}
+
+.sing-in .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=sing-in.css.map */

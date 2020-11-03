@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAA;EACN,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CACjC",
+    "sources": [
+        "sing-in-and-sing-up.scss"
+    ],
+    "names": [],
+    "file": "sing-in-and-sing-up.css"
+}

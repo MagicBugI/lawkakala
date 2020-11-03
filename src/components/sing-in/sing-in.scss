@@ -1,0 +1,15 @@
+.sing-in{
+    width: 45vw;
+    justify-content: space-between;
+    h2{
+        margin-bottom: 15px;
+    }
+    span{
+        font-size: small;
+        color: silver;
+    }
+    .buttons{
+        display: flex;
+        justify-content:space-between;
+    }
+}

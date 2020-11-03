@@ -1,0 +1,43 @@
+.group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 45px 0px;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.group:focus-within label {
+  top: -25px;
+  font-size: small;
+  opacity: 0.8;
+}
+
+.group .form-input {
+  padding: 7px 10px;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid silver;
+  outline: none;
+  font-size: 22px;
+}
+
+.group .form-input-label {
+  position: absolute;
+  text-transform: capitalize;
+  -webkit-transition: 300ms ease all;
+  transition: 300ms ease all;
+}
+
+.group .srink {
+  top: -25px;
+  font-size: small;
+  opacity: 0.8;
+}
+/*# sourceMappingURL=form-input.css.map */

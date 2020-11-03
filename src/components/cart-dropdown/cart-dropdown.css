@@ -1,0 +1,67 @@
+.cart-dropdown {
+  width: 280px;
+  height: 380px;
+  position: absolute;
+  right: 0;
+  border: 2px solid black;
+  border-radius: 15px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+  z-index: 5;
+  top: 80px;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.cart-dropdown .items {
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cart-dropdown .empty-message {
+  width: 100%;
+  padding: 10px;
+  color: silver;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.cart-dropdown .custom-btn {
+  width: 80%;
+  margin: 5px auto;
+}
+
+.cart-dropdown ::-webkit-scrollbar {
+  width: 10px;
+}
+
+.cart-dropdown ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.cart-dropdown ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.cart-dropdown ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/*# sourceMappingURL=cart-dropdown.css.map */

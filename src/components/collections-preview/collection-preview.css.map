@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;EACd,aAAa,EAAE,IAAI;CACtB;;AACD,AAAA,aAAa,CAAA;EACT,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAEjC;;AACD,AAAA,iBAAiB,CAAA;EACb,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "collection-preview.scss"
+    ],
+    "names": [],
+    "file": "collection-preview.css"
+}

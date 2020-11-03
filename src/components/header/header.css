@@ -1,0 +1,45 @@
+.header {
+  width: 100%;
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.header .header_logo {
+  width: 70px;
+  height: 100%;
+  padding: 25px 0px;
+}
+
+.header .header_navigator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 25px;
+}
+
+.header .header_navigator a {
+  padding: 25px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.header .header_navigator .option {
+  display: inline-block;
+  padding: 25px 10px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+/*# sourceMappingURL=header.css.map */

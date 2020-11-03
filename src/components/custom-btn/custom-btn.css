@@ -1,0 +1,38 @@
+.custom-btn {
+  padding: 15px 45px;
+  border-radius: 0;
+  background: none;
+  border: 1px solid silver;
+  cursor: pointer;
+  color: white;
+  background: black;
+  -webkit-transition: 0.6s all ease;
+  transition: 0.6s all ease;
+  outline: none;
+}
+
+.custom-btn:hover {
+  background: rgba(255, 255, 255, 0.719);
+  color: black;
+}
+
+.custom-btn.google-btn {
+  background: #75bdf8;
+}
+
+.custom-btn.google-btn:hover {
+  background: white;
+  color: black;
+}
+
+.custom-btn.inverce {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.custom-btn.inverce:hover {
+  background: black;
+  color: white;
+}
+/*# sourceMappingURL=custom-btn.css.map */

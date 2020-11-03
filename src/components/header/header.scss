@@ -1,0 +1,32 @@
+.header{
+    width: 100%;
+    margin-bottom:25px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+   .header_logo{
+       width: 70px;
+       height: 100%;
+       padding: 25px 0px;
+   }
+   .header_navigator{
+       display: flex;
+       justify-content: flex-end;
+       margin-right: 25px;
+
+       a{
+           padding: 25px 10px;
+           text-decoration: none;
+           color: black;
+       }
+       .option{
+           display: inline-block;
+           padding: 25px 10px;
+           text-decoration: none;
+           color: black;
+           cursor: pointer;
+       }
+   }
+}

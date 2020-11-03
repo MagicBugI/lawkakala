@@ -1,0 +1,26 @@
+.cart-icon {
+  width: 45px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.cart-icon .icon {
+  width: 32px;
+  height: 32px;
+}
+
+.cart-icon span {
+  position: absolute;
+  bottom: 0;
+}
+/*# sourceMappingURL=cart-icon.css.map */
