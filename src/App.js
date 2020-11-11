@@ -40,7 +40,7 @@ function App({history , setCurrentUser , currentUser}) {
         <Header></Header>
           <Switch>
             <Route history={history} exact path='/' component={Homepage}></Route>
-            <Route history={history} exact path='/shop' component={ShopPage}></Route>
+            <Route history={history} path='/shop' component={ShopPage}></Route>
             <Route history={history} exact path='/sing' render={ ()=>
             currentUser?(<Redirect to='/'></Redirect>):(<InAndUp></InAndUp>)}></Route>
             <Route history={history} exac path='/checkout' component={CheckOut}></Route>

@@ -1,0 +1,15 @@
+.collection{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 1px solid red;
+
+    &-main{
+        box-sizing: border-box;
+        position: relative;
+        border: 1px solid black;
+        display: grid;
+        margin: 0 auto; 
+        grid-template-columns: repeat(4 , 1fr);
+    }
+}
