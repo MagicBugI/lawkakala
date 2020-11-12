@@ -3,10 +3,12 @@ import CheckoutItem from '../../components/checkout-item/checkout-item';
 import StripeCheckoutBtn from '../../components/payment-stripe/payment-stripe'
 import {selectCartItems , selectTotalPrice} from '../../redux/cart/cart.selectors';
 import {connect} from 'react-redux';
+import {selectUser} from '../../redux/user/user.selectors'
+import CustomBtn from '../../components/custom-btn/custom-btn'
 
 import './checkout.scss';
 
-const CheckOut = ({items , totalPrice})=>{
+const CheckOut = ({items , totalPrice , user , history , match})=>{
     return(
         <div className='checkout'>
             <div className='checkout-header'>
@@ -34,7 +36,11 @@ const CheckOut = ({items , totalPrice})=>{
                 <span>Total price: {totalPrice} $</span>
             </div>
             <div className='payments'>
-                <StripeCheckoutBtn price={totalPrice}></StripeCheckoutBtn>
+                {
+                    user?
+                    <StripeCheckoutBtn price={totalPrice}></StripeCheckoutBtn>:
+                    <CustomBtn onClick={()=>{history.push('/sing')}}>Sing In</CustomBtn>
+                }
             </div>
         </div>
     )
@@ -42,7 +48,8 @@ const CheckOut = ({items , totalPrice})=>{
 
 const mapStateToProps = state =>({
     items : selectCartItems(state),
-    totalPrice : selectTotalPrice(state)
+    totalPrice : selectTotalPrice(state),
+    user : selectUser(state)
 })
 
 export default connect(mapStateToProps)(CheckOut);
