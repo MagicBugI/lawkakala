@@ -30,7 +30,6 @@ const Header = ({currentUser , cart }) => {
             </div>
             <div className='header_navigator'>
                     <Link to='/shop'>Shop</Link>
-                    <Link to='/hats'>Hats</Link>
                     {
                         currentUser?
                         <div className='option' onClick={()=>auth.signOut()}>Sing Out</div>:

@@ -43,7 +43,7 @@ const SingUp = () => {
 
     return (
         <div className='sing-up'>
-            <h2>I do not havw account</h2>
+            <h2>I do not have account</h2>
             <span>Sinh up with your email and password</span>
             <form className='sing-up' onSubmit={handleSubmit}>
                 <FormInput handleChange={handleChange} label='Your name' type='text' value={userData.displayName} name='displayName'></FormInput>
